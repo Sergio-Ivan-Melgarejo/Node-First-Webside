@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include ('partials/head.html')%>
+</head>
+<body>
+    <%- include ('partials/navigation.html')%>
+        <div class="container">
+            <header class="row">
+                <img class="animate__animated animate__bounce img-hello" src="/img/undraw_hello_re_3evm.svg" alt="hello image">
+            </header>
+        </div>
+        <!-- Section 1 -->
+        <div class="container-fluid" id="about">
+            <div class="row bg-dark text-white p-5 text-center">
+                <div class="col-sm-6">
+                    <i class="fab fa-youtube fa-10x animate__animated animate__fadeIn"></i>
+                    <a class="link" href="https://www.youtube.com/c/FaztTech/featured">Canal de Fazt</a>
+                </div>
+                <div class="col-sm-6">
+                    <h2>Pagina echa gracias Fazt</h2>
+                    <p class="p">Fazt es un canal en donde podrás encontrar una variedad de videos de programación, desarrollo Web y muchos otros temas relacionados al mundo de la informática en general. Desde aprender las bases de un lenguaje de programacion hasta subir tu sitio o aplicación Web. Bienvenido al mundo de la web, un mundo en el que la información es libre, al igual que la información de este canal.</p>
+                </div>
+            </div>
+        </div>
+    <%- include ('partials/footer.html')%>
+</body>
+</html>
